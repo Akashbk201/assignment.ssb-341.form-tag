@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.background {
+    background-color: #7868e6;
+    height: 100vh;
+    padding-top: 150px;
+}
+.form-box {
+    display: flex;
+    background-color: #fff;
+    margin: 0px 40px;
+}
+
+.left-side {
+    flex-basis: 50%;
+    padding: 50px 18px;
+}
+
+.right-side {
+    flex-basis: 50%;
+}
+
+.left-side h2 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.left-side p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-break: anywhere;
+}
+.left-side p span {
+    font-weight: 700;
+}
+
+.left-side button {
+    border: none;
+    background-color: #b8b5ff;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 4px 10px;
+    margin-top: 25px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: .5s all ease;
+}
+
+.left-side button::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #26001b;
+    z-index: -1;
+    transition: 1s all ease;
+}
+
+.left-side button:hover::before {
+    width: 100%;
+}
+
+.left-side button:hover {
+    color: #fff;
+}
+
+.right-side {
+    padding: 50px 0px;
+}
+
+.right-side h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+label {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px 6px;
+    text-transform: capitalize;
+}
+.first-nm {
+    position: relative;
+    width: 170px;
+    margin-top: 35px;
+}
+
+.lb-first-name {
+    position: absolute;
+    top: 249px;
+}
+
+
+.last-nm {
+    position: relative;
+    width: 170px;
+    margin-left: 25px;
+}
+
+.lb-last-name {
+    position: absolute;
+    top: 250px;
+    left: 995px;
+}
+.em {
+    position: relative;
+    width: 385px;
+    margin-top: 35px;
+}
+
+.lb-em {
+    position: absolute;
+    top: 336px;
+}
+.pass {
+    position: relative;
+    width: 170px;
+    margin-top: 35px;
+}
+
+.lb-pass {
+    position: absolute;
+    top: 418px;
+}
+
+.con-pass {
+    position: relative;
+    width: 170px;
+    margin-left: 25px;
+}
+
+.lb-con-pass {
+    position: absolute;
+    top: 418px;
+    left: 995px;
+}
+.right-side p {
+    font-size: 18px;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.right-side p input {
+    margin-right: 10px;
+}
+
+.right-side p a {
+    font-weight: 700;
+}
+
+.btn {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+    padding: 6px 18px;
+    background-color: #b8b5ff;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+button.btn:after {content: "";position: absolute;top: 0px;left: 0;width: 50%;height: 0%;background-color: #1f441e;z-index: -1;transition: .5s all ease;}
+
+button.btn:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 0%;
+    background-color: #e40017;
+    z-index: -1;
+    transition: .5s all ease;
+}
+
+button.btn:hover::before {
+    height: 100%;
+}
+
+button.btn:hover::after {
+    height: 100%;
+}
+
+
+
+
+
+
+
